@@ -24,8 +24,7 @@ Este proyecto implementa los axiomas fundamentales de TIE (red cúbica, Motor Ab
 
 La forma más fácil de ejecutar esta simulación es usar **Gitpod**, un entorno de desarrollo en la nube.
 
-1.  Haz clic en el siguiente botón: [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#TU_URL_DE_GITHUB_AQUI)
-    *(Nota: Rubén, más tarde reemplazaremos `TU_URL_DE_GITHUB_AQUI` con la URL real de tu repositorio)*
+1.  Haz clic en el siguiente botón: [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/RALC-TIE-CREATOR/TIE-Simulation)
 2.  Inicia sesión con tu cuenta de GitHub.
 3.  Espera a que el entorno se cargue (la primera vez tarda unos minutos).
 4.  En el explorador de archivos de la izquierda, abre el archivo `TIE.lean`.
