@@ -189,15 +189,6 @@ def faseFinal := (redDinamica 6.28318530718 { x := 0, y := 0, z := 0 }).fase
 -- TM: SUSTENTO NUMÉRICO DE LA CONSTANTE 'a'
 -- ==========================================
 
-def c_obs : Float := 299792458.0
-def f_planck : Float := 1.8549e43
-
-/-- La constante 'a' es el resultado de la velocidad luz y el latido universal -/
-def a_derivado : Float := c_obs / f_planck
-
-/-- El volumen de la infraestructura en un solo nodo -/
-def volumen_celda : Float := a_derivado * a_derivado * a_derivado
-
 -- ==========================================
 -- TM: EMERGENCIA DE LA GRAVEDAD (G) - VERSIÓN FINAL
 -- ==========================================
@@ -314,8 +305,6 @@ def tension_contacto := fuerza_fuerte_tie 15.0 8.05
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- 📏 ESCALA FUNDAMENTAL (TEORÍA DEL ESPACIO)
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#eval "📏 Tamaño del píxel fundamental 'a' (x 10^-35 m): " ++ toString (a_derivado * 1.0e35)
-#eval "📏 Volumen de la celda fundamental (x 10^-105 m³): " ++ toString (volumen_celda * 1.0e105)
 #eval "📏 Longitud de Planck ℓP (x 10^-35 m): " ++ toString (lP_float * 1.0e35)
 #eval "📏 Espaciado de red TIE 'a' (x 10^-35 m): " ++ toString (a_TIE_float * 1.0e35)
 #eval "📏 Volumen de la celda fundamental (x 10^-105 m³): " ++ toString (volumen_celda_float * 1.0e105)
